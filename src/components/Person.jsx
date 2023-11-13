@@ -36,7 +36,6 @@ function Person() {
   return (
     <div className="person">
       <div className="link-person">
-
         <div className="container">
           <img src={Logo} alt="" />
           <p className="person-text"> Maqolalar</p>
@@ -87,7 +86,7 @@ function Person() {
             <button className="navbar-btn">Xabar qoldirish</button>
           </div>
         </div>
-        
+
         <div>
           <Link className="react-icons" to="/">
             <IoIosArrowBack className="icons" />
